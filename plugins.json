@@ -1,263 +1,688 @@
 {
   "angular": {
+    "name": "angular",
     "label": "AngularJS",
     "homepage": "https://angularjs.org/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com> forked by Angelo ZERR",
     "description": "Adds AngularJS support.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.java.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/angularjs-eclipse/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/angularjs-eclipse"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/angular.metadata.json"
   },
   "aui": {
+    "name": "aui",
     "label": "AlloyUI",
     "homepage": "http://alloyui.com/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Adds AlloyUI support. AlloyUI is a framework built on top of YUI3 (JavaScript) that uses Bootstrap (HTML/CSS) to provide a simple API for building high scalable applications.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.yuidoc.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.yuidoc/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-AlloyUI-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/aui.metadata.json"
   },
   "browser": {
+    "name": "browser",
     "label": "Browser",
     "homepage": "https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds Browser support.",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/browser.metadata.json"
   },
   "chai": {
+    "name": "chai",
     "label": "Chai",
     "homepage": "http://chaijs.com/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds Chai support. Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/chai.metadata.json"
   },
   "chrome-apps": {
+    "name": "chrome-apps",
     "label": "Chrome Apps",
     "homepage": "https://developer.chrome.com/apps/",
+    "author": "MetaMemoryT",
     "description": "A Tern plugin adding support for Chrome Apps API. Chrome Apps deliver an experience as capable as a native app, but as safe as a web page. Just like web apps, Chrome Apps are written in HTML5, JavaScript, and CSS. But Chrome Apps look and behave like native apps, and they have native-like capabilities that are much more powerful than those available to web apps.",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/MetaMemoryT/tern-chrome-apps.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/MetaMemoryT/tern-chrome-apps/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Chrome-Apps-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/chrome-apps.metadata.json"
   },
   "ckeditor": {
+    "name": "ckeditor",
     "label": "CKEditor",
     "homepage": "http://ckeditor.com/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add CKEditor support. The best web text editor for everyone",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.jsduck.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.jsduck/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-CKEditor-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/ckeditor.metadata.json"
   },
   "closure": {
+    "name": "closure",
     "label": "Closure",
     "homepage": "https://developers.google.com/closure/library/",
+    "author": "Josh Giles",
     "description": "Adds support for Closure Compiler annotations and the Closure Library. The Closure Library is a broad, well-tested, modular, and cross-browser JavaScript library. You can pull just what you need from a large set of reusable UI widgets and controls, and from lower-level utilities for DOM manipulation, server communication, animation, data structures, unit testing, rich-text editing, and more..",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/google/tern-closure"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/google/tern-closure/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Closure-support"
+    },
+    "options": [
+      {
+        "name": "finder",
+        "description": "finder",
+        "type": "finder"
+      }
+    ],
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/closure.metadata.json"
   },
   "component": {
+    "name": "component",
     "label": "Component",
     "homepage": "",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "",
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "options": [
+      {
+        "name": "dontLoad",
+        "description": "Can be set to true to disable dynamic loading of required modules entirely,\nor to a regular expression to disable loading of files that match the expression.",
+        "type": "boolean"
+      },
+      {
+        "name": "load",
+        "description": "If dontLoad isn't given, this setting is checked.\nIf it is a regular expression, the plugin will only load files that match the expression.",
+        "type": "string"
+      },
+      {
+        "name": "modules",
+        "description": "Can be used to assign JSON type definitions to certain modules, so that those are loaded instead of the source code itself.\nIf given, should be an object mapping module names to either JSON objects defining the types in the module, or a string referring to a file name (relative to the project directory) that contains the JSON data.",
+        "type": "object"
+      }
+    ],
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/component.metadata.json"
   },
   "cordovajs": {
+    "name": "cordovajs",
     "label": "Cordova JavaScript",
     "homepage": "http://cordova.apache.org/",
+    "author": "Victor V. Rubezhny <vrubezhny@exadel.com>",
     "description": "Adds Cordova Javascript support. Apache Cordova is a platform for building native mobile applications using HTML, CSS and JavaScript",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.java.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.java/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-CordovaJS-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/cordovajs.metadata.json"
   },
   "doc_comment": {
+    "name": "doc_comment",
     "label": "JSDoc Support",
     "homepage": "http://ternjs.net/doc/manual.html#plugin_doc_comment",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "This plugin, which is enabled by default in the bin/tern server, parses comments before function declarations, variable declarations, and object properties. It will look for JSDoc-style type declarations, and try to parse them and add them to the inferred types, and it will treat the first sentence of comment text as the docstring for the defined variable or property.",
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/doc_comment.metadata.json"
   },
   "dojotoolkit": {
+    "name": "dojotoolkit",
     "label": "Dojo Toolkit",
     "homepage": "http://dojotoolkit.org/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add Dojo Toolkit support. Dojo saves you time and scales with your development process, using web standards as its platform. It’s the toolkit experienced developers turn to for building high quality desktop and mobile web applications. From simple websites to large packaged enterprise applications whether desktop or mobile, Dojo will meet your needs.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.dojotoolkit.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.dojotoolkit/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-DojoToolkit-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/dojotoolkit.metadata.json"
   },
   "ecma5": {
+    "name": "ecma5",
     "label": "EcmaScript 5",
     "homepage": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds ECMAScript 5 support.",
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/ecma5.metadata.json"
   },
   "extjs": {
+    "name": "extjs",
     "label": "ExtJS",
     "homepage": "http://www.sencha.com/products/extjs/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add ExtJS support.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.jsduck.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.jsduck/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-ExtJS-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/extjs.metadata.json"
   },
   "gas": {
+    "name": "gas",
     "label": "Google Apps Script",
     "homepage": "https://developers.google.com/apps-script/",
+    "author": "Hiroaki Otsu",
     "description": "A Tern plugin adding Google Apps Script support. Google Apps Script is a scripting language based on JavaScript that lets you do new and cool things with Google Apps like Docs, Sheets, and Forms. There's nothing to install — we give you a code editor right in your browser, and your scripts run on Google's servers",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/aki2o/tern-gas.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/aki2o/tern-gas/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Google-Apps-Script-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/gas.metadata.json"
   },
   "gmaps": {
+    "name": "gmaps",
     "label": "Google Maps",
     "homepage": "https://developers.google.com/maps/documentation/javascript/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add Google Maps Javascript API support.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.googleapi.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.googleapi/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Google-Maps-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/gmaps.metadata.json"
   },
   "grunt": {
+    "name": "grunt",
     "label": "Grunt",
     "homepage": "http://dojotoolkit.org/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add Grunt support. Grunt is the JavaScript Task Runner",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.java.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.java/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Grunt-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/grunt.metadata.json"
   },
   "jquery": {
+    "name": "jquery",
     "label": "jQuery",
     "homepage": "http://jquery.com/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds jQuery support. jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-jQuery-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/jquery.metadata.json"
   },
   "liferay": {
+    "name": "liferay",
     "label": "Liferay",
     "homepage": "https://www.liferay.com/fr/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Adds Liferay Javascript API support.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-liferay.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-liferay/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Liferay-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/liferay.metadata.json"
   },
   "lint": {
+    "name": "lint",
     "label": "Lint",
     "homepage": "https://github.com/angelozerr/tern-lint",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "This plugin validate JS files (but not syntax errors).",
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-lint.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-lint/issues"
+    },
+    "options": [
+      {
+        "name": "rules",
+        "description": "Defines rules level",
+        "type": "lintRules",
+        "values": [
+          {
+            "UnknownProperty": {
+              "label": "Unknown property",
+              "severity": "warning"
+            }
+          },
+          {
+            "UnknownIdentifier": {
+              "label": "Unknown identifier",
+              "severity": "warning"
+            }
+          },
+          {
+            "NotAFunction": {
+              "label": "Not a function",
+              "severity": "error"
+            }
+          },
+          {
+            "InvalidArgument": {
+              "label": "Invalid argument",
+              "severity": "error"
+            }
+          },
+          {
+            "UnusedVariable": {
+              "label": "Unused variable",
+              "severity": "warning"
+            }
+          }
+        ]
+      }
+    ],
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/lint.metadata.json"
   },
   "meteor": {
+    "name": "meteor",
     "label": "Meteor",
     "homepage": "https://www.meteor.com/",
+    "author": "Slava Kim <slava@meteor.com>",
     "description": "Add Meteor support. Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/Slava/tern-meteor.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/Slava/tern-meteor/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Meteor-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/meteor.metadata.json"
   },
   "node-express": {
+    "name": "node-express",
     "label": "Express",
     "homepage": "http://expressjs.com/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add express web application framework for node support. Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+    "dependencies": [
+      "ecma5",
+      "node"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-node-express.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-node-express/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Node-Express-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-express.metadata.json"
   },
   "node-mongodb-native": {
+    "name": "node-mongodb-native",
     "label": "Mongo DB Native NodeJS Driver",
     "homepage": "http://mongodb.github.io/node-mongodb-native/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add node mongodb native support. Node.js Native is the MongoDB official Node.js driver allowing you to use MongoDB in you applications.applications.",
+    "dependencies": [
+      "ecma5",
+      "node"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-node-mongodb-native.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-node-mongodb-native/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Node-MongoDB-Native-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-mongodb-native.metadata.json"
   },
   "node-mongoose": {
+    "name": "node-mongoose",
     "label": "Mongoose",
     "homepage": "http://mongoosejs.com/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add mongoose support. mongoose is a elegant mongodb object modeling for node.js.",
+    "dependencies": [
+      "ecma5",
+      "node"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-node-mongoose.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-node-mongoose/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Node-Mongoose-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-mongoose.metadata.json"
   },
   "node": {
+    "name": "node",
     "label": "Node.js",
     "homepage": "http://www.nodeclipse.org/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds node.js support.",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Node.js-support"
+    },
+    "options": [
+      {
+        "name": "dontLoad",
+        "description": "Can be set to true to disable dynamic loading of required modules entirely,\nor to a regular expression to disable loading of files that match the expression.",
+        "type": "boolean"
+      },
+      {
+        "name": "load",
+        "description": "If dontLoad isn't given, this setting is checked.\nIf it is a regular expression, the plugin will only load files that match the expression.",
+        "type": "string"
+      },
+      {
+        "name": "modules",
+        "description": "Can be used to assign JSON type definitions to certain modules, so that those are loaded instead of the source code itself.\nIf given, should be an object mapping module names to either JSON objects defining the types in the module, or a string referring to a file name (relative to the project directory) that contains the JSON data.",
+        "type": "object"
+      }
+    ],
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node.metadata.json"
   },
   "qooxdoo": {
+    "name": "qooxdoo",
     "label": "Qooxdoo",
     "homepage": "http://qooxdoo.org/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Add Qooxdoo support. qooxdoo is a universal JavaScript framework with a coherent set of individual components and a powerful toolchain. It is open source under liberal licenses, and supported by one of the world's leading web hosts, 1&1.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-qooxdoo.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-qooxdoo/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Qooxdoo-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/qooxdoo.metadata.json"
   },
   "requirejs": {
+    "name": "requirejs",
     "label": "RequireJS",
     "homepage": "http://requirejs.org/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds RequireJS support. RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-RequireJS-support"
+    },
+    "options": [
+      {
+        "name": "baseURL",
+        "description": "The base path to prefix to dependency filenames.",
+        "type": "path"
+      },
+      {
+        "name": "paths",
+        "description": "An object mapping filename prefixes to specific paths.\nFor example {'acorn': 'lib/acorn/'}.",
+        "type": "path[]"
+      }
+    ],
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/requirejs.metadata.json"
   },
   "tabris": {
+    "name": "tabris",
     "label": "tabris.js",
     "homepage": "https://github.com/eclipsesource/tabris-js",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Adds tabris.js Javascript API support. Native apps in JavaScript https://tabrisjs.com",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern-tabris.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern-tabris/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-Tabris-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/tabris.metadata.json"
   },
   "underscore": {
+    "name": "underscore",
     "label": "Underscore",
     "homepage": "http://underscorejs.org/",
+    "author": "Marijn Haverbeke <marijnh@gmail.com>",
     "description": "Adds Underscore support. Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects. It's the answer to the question: 'If I sit down in front of a blank HTML page, and want to start being productive immediately, what do I need?'and the tie to go along with jQuery's tux and Backbone's suspenders.",
+    "dependencies": [
+      "ecma5"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/marijnh/tern.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/marijnh/tern/issues"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/undesrcore.metadata.json"
   },
   "yui": {
+    "name": "yui",
     "label": "YUI",
     "homepage": "http://yuilibrary.com/",
+    "author": "Angelo ZERR <angelo.zerr@gmail.com>",
     "description": "Adds YUI Library support. YUI is a free, open source JavaScript and CSS library for building richly interactive web applications.",
+    "dependencies": [
+      "ecma5",
+      "browser"
+    ],
     "repository": {
       "type": "git",
       "url": "https://github.com/angelozerr/tern.yuidoc.git"
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/angelozerr/tern.yuidoc/issues"
+    },
+    "help": {
+      "url": "https://github.com/angelozerr/tern.java/wiki/Tern-&-YUI-Library-support"
+    },
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/yui.metadata.json"
   }
 }

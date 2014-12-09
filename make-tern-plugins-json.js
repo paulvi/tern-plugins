@@ -64,7 +64,7 @@ for (var i in filenames){
 	entry.description = metadata.description;
 	entry.repository = metadata.repository;
 	//see metadataurl discussed https://github.com/angelozerr/tern.java/pull/191
-	//entry.metadataurl = folderUrl+file;
+	entry.metadataurl = folderUrl+file;
 
 //	var entryRoot = {};
 //	entryRoot[metadata.name] = entry;
