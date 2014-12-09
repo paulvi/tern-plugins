@@ -5,13 +5,13 @@
 metadata taken from
 tern.java\core\tern.core\metadata
 
-generated <plugins.json>
+generated `plugins.json`
 sent as PR <https://github.com/marijnh/tern/pull/438>
 
 
 ## Usage
 
-
+run make-tern-plugins-json.js to regenerate plugins.json
 
 ## Developing
 
