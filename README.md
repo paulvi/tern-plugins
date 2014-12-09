@@ -5,6 +5,8 @@
 metadata taken from
 tern.java\core\tern.core\metadata
 
+generated <plugins.json>
+sent as PR <https://github.com/marijnh/tern/pull/438>
 
 
 ## Usage
