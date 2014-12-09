@@ -1,0 +1,118 @@
+[
+  {
+    "name": "angular",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/angular.metadata.json"
+  },
+  {
+    "name": "aui",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/aui.metadata.json"
+  },
+  {
+    "name": "browser",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/browser.metadata.json"
+  },
+  {
+    "name": "chai",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/chai.metadata.json"
+  },
+  {
+    "name": "chrome-apps",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/chrome-apps.metadata.json"
+  },
+  {
+    "name": "ckeditor",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/ckeditor.metadata.json"
+  },
+  {
+    "name": "closure",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/closure.metadata.json"
+  },
+  {
+    "name": "component",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/component.metadata.json"
+  },
+  {
+    "name": "cordovajs",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/cordovajs.metadata.json"
+  },
+  {
+    "name": "doc_comment",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/doc_comment.metadata.json"
+  },
+  {
+    "name": "dojotoolkit",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/dojotoolkit.metadata.json"
+  },
+  {
+    "name": "ecma5",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/ecma5.metadata.json"
+  },
+  {
+    "name": "extjs",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/extjs.metadata.json"
+  },
+  {
+    "name": "gas",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/gas.metadata.json"
+  },
+  {
+    "name": "gmaps",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/gmaps.metadata.json"
+  },
+  {
+    "name": "grunt",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/grunt.metadata.json"
+  },
+  {
+    "name": "jquery",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/jquery.metadata.json"
+  },
+  {
+    "name": "liferay",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/liferay.metadata.json"
+  },
+  {
+    "name": "lint",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/lint.metadata.json"
+  },
+  {
+    "name": "meteor",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/meteor.metadata.json"
+  },
+  {
+    "name": "node-express",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-express.metadata.json"
+  },
+  {
+    "name": "node-mongodb-native",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-mongodb-native.metadata.json"
+  },
+  {
+    "name": "node-mongoose",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node-mongoose.metadata.json"
+  },
+  {
+    "name": "node",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/node.metadata.json"
+  },
+  {
+    "name": "qooxdoo",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/qooxdoo.metadata.json"
+  },
+  {
+    "name": "requirejs",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/requirejs.metadata.json"
+  },
+  {
+    "name": "tabris",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/tabris.metadata.json"
+  },
+  {
+    "name": "underscore",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/undesrcore.metadata.json"
+  },
+  {
+    "name": "yui",
+    "metadataurl": "https://raw.githubusercontent.com/angelozerr/tern.java/master/core/tern.core/metadata/yui.metadata.json"
+  }
+]
